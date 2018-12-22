@@ -1,0 +1,3 @@
+# https://github.com/JetBrains/kotlin-examples/blob/master/gradle/mixed-java-kotlin-hello-world/.gitignore
+build
+.gradle
