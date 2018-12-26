@@ -25,7 +25,8 @@ fun main(args: Array<String>) {
     val postResponse: Response = post(
         url = url,
         headers = mapOf("Content-Type" to "application/x-www-form-urlencoded"),
-        json = inputsMap)
+        data = inputsMap
+    )
     val postText: String = postResponse.text
     print(postText)
 }
